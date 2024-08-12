@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --accent: #263238;
+    --hover: #5ED8FF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@layer base{
+    .nav-links p{
+        @apply cursor-pointer hover:text-[#263238]
+    }
+}
