@@ -1,9 +1,9 @@
 .contactSection{
-    @apply max-w-[1000px] my-0 mx-auto
+    @apply max-w-[1000px] my-0 mx-auto 
 }
 .contactSection h1{
     @apply text-4xl font-extrabold max-w-[80%]
 }
 .contactSection p{
-    @apply font-semibold mt-4
+    @apply font-medium mt-4
 }
