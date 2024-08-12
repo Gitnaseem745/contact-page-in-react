@@ -1,5 +1,5 @@
 .navbar{
-    @apply h-[80px] mt-4 flex justify-between items-center
+    @apply h-[80px] mt-1 flex justify-between items-center
 }
 .navLinks{
     @apply flex justify-center gap-8 items-center text-sm font-semibold font-poppins
