@@ -1,0 +1,4 @@
+.primaryBtn{
+    @apply px-4 py-1 bg-[#263238] text-white min-w-[220px] justify-center text-[16px] rounded-md flex items-center gap-5
+
+}

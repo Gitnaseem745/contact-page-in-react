@@ -1,0 +1,6 @@
+.contactSection h1{
+    @apply text-4xl font-extrabold
+}
+.contactSection p{
+    @apply font-semibold mt-4
+}

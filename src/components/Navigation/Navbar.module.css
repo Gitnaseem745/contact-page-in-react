@@ -1,0 +1,9 @@
+.navbar{
+    @apply h-[80px] mt-4 flex justify-between items-center
+}
+.navLinks{
+    @apply flex justify-center gap-8 items-center text-xl font-semibold font-poppins
+}
+.navLinks p{
+        @apply cursor-pointer hover:text-[#263238]
+ }
