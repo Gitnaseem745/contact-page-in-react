@@ -34,7 +34,7 @@ const ContactForm = () => {
                 </div>
                 <div className={styles.formContainer}>
                 <label htmlFor="message">Message</label>
-                <textarea name='message' rows={8}/>
+                <textarea name='message' rows={5}/>
                 </div>
                 <div className='flex justify-end'>
                 <Button

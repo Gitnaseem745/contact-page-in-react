@@ -14,8 +14,11 @@
     @apply flex flex-col w-full relative
 }
 .formContainer input{
-    @apply h-12 px-8
+    @apply h-12 px-8  border-2 border-gray-300
 }
 .formContainer label{
     @apply absolute top-[-14px] left-[10px] bg-white px-2 text-sm
+}
+.formContainer textarea{
+    @apply border-2 border-gray-300
 }
