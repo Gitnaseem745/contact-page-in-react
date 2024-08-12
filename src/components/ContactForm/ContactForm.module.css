@@ -1,5 +1,5 @@
 .container{
-    @apply max-w-[1000px] my-[0] mx-auto  flex
+    @apply max-w-[1000px] my-[0] mx-auto flex mt-20 items-end
 }
 .topBtn{
     @apply flex gap-6
@@ -7,12 +7,15 @@
 .contactForm{
     @apply flex flex-col gap-4
 }
+.contactForm form{
+    @apply flex gap-4 flex-col pb-8
+}
 .formContainer{
     @apply flex flex-col w-full relative
 }
 .formContainer input{
-    @apply h-12 px-8 bg-red-50
+    @apply h-12 px-8
 }
 .formContainer label{
-    @apply absolute top-[-14px] left-[10px] bg-white px-2
+    @apply absolute top-[-14px] left-[10px] bg-white px-2 text-sm
 }

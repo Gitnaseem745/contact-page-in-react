@@ -8,7 +8,9 @@ import ContactForm from './components/ContactForm/ContactForm'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Navbar />
+    <main className='mainContainer'>
     <ContactHeader />
     <ContactForm />
+    </main>
   </StrictMode>,
 )
