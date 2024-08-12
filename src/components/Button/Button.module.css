@@ -1,4 +1,8 @@
 .primaryBtn{
-    @apply px-4 py-1 bg-[#263238] text-white min-w-[220px] justify-center text-[16px] rounded-md flex items-center gap-5
+    @apply px-4 py-3 cursor-pointer bg-[#263238] text-white min-w-[220px] justify-center text-[16px] rounded-md flex items-center gap-5
+
+}
+.outlineBtn{
+    @apply px-4 py-3 cursor-pointer border border-black text-black min-w-[220px] w-full justify-center text-[16px] rounded-md flex items-center gap-5
 
 }
