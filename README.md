@@ -20,7 +20,7 @@ This is a Contact Page UI built using React and Tailwind CSS. The main purpose o
   - As the user types into each input field and clicks on submit, the corresponding state is updated, and the entered data is displayed below the form.
 
 ## Live Demo
-
+![Demo Image](https://github.com/Gitnaseem745/contact-page-in-react/blob/main/src/assets/demoImage.png)
 Check out the live demo of the project [here](https://contact-page-in-react.vercel.app/).
 
 ## Getting Started
