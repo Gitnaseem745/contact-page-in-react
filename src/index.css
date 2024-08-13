@@ -14,5 +14,5 @@ body{
     margin: 0 auto;
 }
 .mainContainer{
-    @apply flex flex-col justify-end h-fit
+    @apply flex flex-col justify-end h-fit flex-wrap
 }

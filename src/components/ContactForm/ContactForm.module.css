@@ -1,5 +1,5 @@
 .container{
-    @apply max-w-[1000px] my-[0] mx-auto flex mt-20 items-end
+    @apply max-w-[1000px] my-[0] mx-auto flex mt-20 items-end max-lg:flex-wrap max-lg:justify-center
 }
 .topBtn{
     @apply flex gap-6
@@ -21,4 +21,7 @@
 }
 .formContainer textarea{
     @apply border-2 border-gray-300
+}
+.contactImg{
+    @apply max-lg:hidden
 }

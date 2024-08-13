@@ -1,9 +1,9 @@
 import React from 'react'
 import {MdMessage} from "react-icons/md"
 import styles from './Button.module.css'
-const Button = ({btnText, btnIcon, isOutline}) => {
+const Button = ({btnText, btnIcon, isOutline, ...rest}) => {
   return (
-    <button className={isOutline ? styles.outlineBtn : styles.primaryBtn}>{btnIcon} {btnText}</button>
+    <button className={isOutline ? styles.outlineBtn : styles.primaryBtn} {...rest} >{btnIcon} {btnText}</button>
   )
 }
 
