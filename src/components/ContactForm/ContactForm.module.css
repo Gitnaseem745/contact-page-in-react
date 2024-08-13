@@ -2,10 +2,10 @@
     @apply max-w-[1000px] my-[0] mx-auto flex mt-20 items-end max-lg:flex-wrap max-lg:justify-center
 }
 .topBtn{
-    @apply flex gap-6
+    @apply flex gap-6 max-sm:flex-col
 }
 .contactForm{
-    @apply flex flex-col gap-4
+    @apply flex flex-col gap-4 max-sm:w-full
 }
 .contactForm form{
     @apply flex gap-4 flex-col pb-8
@@ -20,8 +20,14 @@
     @apply absolute top-[-14px] left-[10px] bg-white px-2 text-sm
 }
 .formContainer textarea{
-    @apply border-2 border-gray-300
+    @apply border-2 border-gray-300 p-3
 }
 .contactImg{
-    @apply max-lg:hidden
+    @apply max-lg:hidden self-start
+}
+.checkVals{
+    @apply flex justify-between items-start flex-wrap gap-4 flex-col
+}
+.checkVals p{
+    @apply font-semibold text-[#263238]
 }

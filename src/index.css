@@ -9,10 +9,20 @@
 body{
     font-family: "Poppins", sans-serif;
 }
-.container{
+.container {
     max-width: 1280px;
     margin: 0 auto;
 }
+
+@media (max-width: 650px) {
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .mainContainer{
     @apply flex flex-col justify-end h-fit flex-wrap
 }

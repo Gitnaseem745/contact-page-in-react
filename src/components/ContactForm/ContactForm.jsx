@@ -54,8 +54,10 @@ const ContactForm = () => {
                 btnText="Submit"
                />
                  </div>
-               <div className="check-vals">
-                {name + " " + email + " " + message }
+               <div className={styles.checkVals}>
+                <p>Name: {name}</p>
+                <p>Email: {email}</p>
+                <p>Message: {message}</p>
                </div>
             </form>
         </div>
